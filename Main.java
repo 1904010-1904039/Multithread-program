@@ -1,6 +1,5 @@
 class Main {
     public static void main(String[] args) {
-
         //System.out.println("Hello World!");
         //First way
         Mythread thread1 = new Mythread();
@@ -9,7 +8,7 @@ class Main {
         Myrunnable runnable1 = new Myrunnable();
         Thread thread2 = new Thread(runnable1);
 
-        //User thread vs daemon thread?
+        //User thread vs daemon thread
         //thread1.setDaemon(true);
         //thread2.setDaemon(true);
 
